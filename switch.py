@@ -1,0 +1,16 @@
+string=str(input())
+t=int(input())
+b=int(input())
+h=int(input())
+if(string=='MSH'):
+    print(t+h)
+elif(string=='MSDS'):
+    print(t+b)
+elif(string=='MGSDS'):
+    a1=(1.5*t)+b
+    a2="{:.0f}".format(a1)
+    print(a2)
+else:
+    b1=(1.5*t)+h
+    b2="{:.0f}".format(b1)
+    print(b2)
